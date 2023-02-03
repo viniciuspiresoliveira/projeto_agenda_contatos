@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    color:rgb(1, 72, 92);
+    max-width: 960px;
+    width: 100%;
+    margin:0 auto;
+}
+
+h1 {
+    margin: 50px auto;
+    text-align: center;
+    color:rgb(47, 25, 110);
+}
+
+.postit {
+    height: 300px;
+    max-width: 300px;
+    width: 100%;
+    background-image:url(./images/post-it.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.caderno {
+    max-width: 450px;
+    width: 100%;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+.postit input, button {
+    display: block;
+    margin: 5px auto;
+}
+
+button {
+    margin-top: 20px;
+    background-color: rgb(193, 189, 189, 0.7);
+    border-radius: 15%;
+    border-color:coral;
+    padding: 5px;
+}
+
+input {
+    max-width: 140px;
+    width: 100%;
+    background-color:transparent;
+    border: none;
+    border-bottom:  1px solid #000;
+}
+
+.postit form {
+    margin: 100px auto;
+}
+
+.corpo-agenda {
+    display:flex;
+    max-width: 900px;
+    width: 100%;
+    justify-content:space-between;
+}
+
+.caderno th {
+    padding: 16px;
+    border-bottom: 1px solid blue;
+    background-color: rgb(77, 27, 124, 0.1);
+    font-weight: bold;
+}
+
+.caderno td {
+    padding: 8px;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+table th:nth-child(1){
+    border-top-left-radius: 10px;
+}
+
+table th:nth-child(2){
+    border-top-right-radius: 10px;
+}
+
+tfoot tr:last-child {
+    background-color: rgb(77, 27, 124, 0.07);
+    font-weight: bold;
+}
+
+tfoot td:last-child {
+    padding: 16px;
+}
